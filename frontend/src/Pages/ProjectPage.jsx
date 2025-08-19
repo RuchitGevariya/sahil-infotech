@@ -39,7 +39,7 @@ const ProjectPage = () => {
       <div style={{ padding: "40px", marginTop: "80px" }}>
         {/* file structer  manager */}
         <Breadcrumb
-          style={{ marginBottom: 16 }}
+          style={{ marginBottom: "5px"}}
           items={[
             {
               title: (

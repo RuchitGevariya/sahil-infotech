@@ -62,8 +62,9 @@ const ProjectDetailed = () => {
 
       {/* Project Details */}
       <Descriptions
+      title="Work Info"
         bordered
-        column={1}
+        column={{xs:1,sm:1,md:2,lg:2,xl:2}}
         size="default"
         labelStyle={{ fontWeight: "bold", width: "200px" }}
       >
