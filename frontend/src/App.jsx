@@ -23,12 +23,14 @@ const App = () => {
      <div>
       <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
+        <main className="pt-16">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/works" element={<ProjectPage />} />
             <Route path="/works/:id" element={<ProjectDetailed />} />
             <Route path="/contact" element={<ContactUS />} />
           </Routes>
+          </main>
         <Footer />
       </div>
   );
