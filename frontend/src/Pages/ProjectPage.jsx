@@ -10,9 +10,8 @@ const ProjectPage = () => {
   const categories = [
     "All",
     "Web Development",
-    "Custom Software",
-    "Dot Net",
-    "Chat Bot"
+    ".Net Development",
+    "Chat Solution"
   ];
 
   const cardPerPage = 6;
@@ -30,16 +29,14 @@ const ProjectPage = () => {
   };
 
   useEffect(() => {
-    console.log("current Category",selectedCategory)
-     console.log("currentData",currentCards)
     window.scrollTo(0, 0);
   }, [selectedCategory]);
   return (
     <>
-      <div style={{ padding: "40px", marginTop: "80px" }}>
+      <div style={{ padding: "6px", marginTop: "20px" }}>
         {/* file structer  manager */}
         <Breadcrumb
-          style={{ marginBottom: "5px"}}
+          style={{ marginBottom: "10px"}}
           items={[
             {
               title: (
@@ -52,7 +49,7 @@ const ProjectPage = () => {
             {
               title: (
                 <Link to="/works">
-                  <AppstoreOutlined /> Projects
+                  <AppstoreOutlined /> Works
                 </Link>
               ),
             },

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect} from "react";
 import {
   EnvironmentOutlined,
   PhoneOutlined,
@@ -47,9 +47,11 @@ export default function ContactUS() {
       setLoading(false);
     }
   };
-
+ useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <section id="contact" className="py-12 px-4 bg-white my-10 " >
+    <section id="contact" className="py-0 px-0 bg-white mt-0 mb-0" >
             <div className="py-8 bg-slate-100 w-full  text-center px-2 mb-7">
           
               <h2 className="font-medium text-slate-800 text-3xl max-w-lg mx-auto mt-2">
@@ -80,7 +82,7 @@ export default function ContactUS() {
               <EnvironmentOutlined className="text-blue-500 text-2xl" />
               <div>
                 <h3 className="font-semibold text-lg ">Our Location</h3>
-                <p className="text-gray-600">Surat, Gujarat, India</p>
+                <p className="text-gray-600">207 The Galleria, Kiran Chowk To Yogi Chowk Road, Surat, Gujarat 395006</p>
               </div>
             </div>
           </div>

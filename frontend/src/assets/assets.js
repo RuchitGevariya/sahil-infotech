@@ -1,15 +1,14 @@
 
-import logo from "./logo.png"
-
+import logoTm from "./logoTm.png"
 export const images={
-    logo
+   logoTm
 }
 
 export const project=[
   {
     id: 1,
     title: "RAG Chatbot for Irish Tech Company",
-    category: "Chat Bot",
+    category: "Chat Solution",
     client:"Tankbuilder lreland",
     description:
       "We engineered and deployed a fast, intelligent RAG chatbot that enables real-time Q&A using company documents and uploaded PDFs. Built within just 7 days, the chatbot streamlines internal knowledge discovery and delivers instant insights.",
@@ -80,7 +79,7 @@ export const project=[
   {
   id: 4,
   title: "Social Media That Speaks, Sells & Sticks",
-  category: "custom software",
+  category: "web development",
   client:"Multi-industry Brands",
   description:
     "We delivered impactful social media campaigns for multi-industry brands, focusing on content strategy, visual branding, and conversion design. The approach blended minimal yet magnetic visuals with data-driven storytelling to drive meaningful audience connections.",
@@ -194,7 +193,7 @@ client:"Viralpep(Social Media Management SAAS",
 {
   id: 9,
   title: "Smart Health Management for Clinics and Hospitals",
-  category: "dot net",
+  category: ".NET Development",
   client: "Dr. Patient Meetup Application",
   description:
     "This comprehensive ERP system was developed for efficient administration of government pension schemes. Designed to improve transparency and streamline pension processing, the system handles thousands of pension transactions monthly, securely managing sensitive government employee data. Key features include automated pension calculations, an intuitive dashboard for real-time monitoring, and a secure database for accurate record-keeping. My role involved enhancing system architecture and optimizing SQL Server to handle a high volume of queries, reducing processing time by 30% and improving data accuracy across departments.",
@@ -283,7 +282,7 @@ client:"Viralpep(Social Media Management SAAS",
    {
     id: 13,
     title: "Shipment Booking and Tracking System",
-    category: "dot net",
+    category: ".NET Development",
     client:"",
     description: "A SaaS platform for high-accuracy, multilingual transcription supporting Hindi, Gujarati, Marathi, Urdu, and Punjabi. Integrated Google Speech-to-Text API for accurate recognition, optimized for batch processing, and powered by .NET 6 for faster processing. Backend improvements enabled thousands of transcription requests daily with enhanced performance and accuracy.",
     tags: ["NET 6", "Google Speech-to-Text API", "Microsoft SQL Server", "Entity Framework"],
@@ -304,7 +303,7 @@ client:"Viralpep(Social Media Management SAAS",
   },
   {
     id: 14,
-    category: "dot net",
+    category: ".NET Development",
     client:"",
     title: "Multi-Warehouse E-commerce Platform",
     description: "An advanced e-commerce platform managing inventory and orders across multiple warehouses, with a Flutter mobile app for cross-platform functionality. Supports real-time inventory tracking, automated order processing, and distributor coordination. Optimized with SQL Server and Dapper for 50% faster queries, improving logistics efficiency by 30%.",
@@ -326,7 +325,7 @@ client:"Viralpep(Social Media Management SAAS",
   },
   {
   id: 15,
-  category: "dot net",
+  category: ".NET Development",
   client:"",
   title: "Property Management Software for Real Estate Portfolios",
   description: "Web-based solution for managing large-scale real estate portfolios with real-time dashboards and scalable workflows.",
@@ -349,7 +348,7 @@ client:"Viralpep(Social Media Management SAAS",
 {
   id: 16,
    client:"",
-  category: "dot net",
+  category: ".NET Development",
   title: "Trade and Land Management Platform for Hunting Properties",
   Description: "Specialized platform for listing, booking, and secure transactions of hunting land properties with membership and analytics features. I developed and implemented core functionalities, including membership management and payment gateway integration, ensuring a seamless experience for property transactions in a specialized marketplace.",
  

@@ -23,10 +23,9 @@ const ProjectDetailed = () => {
   return (
     <div
       style={{
-        maxWidth: 900,
-        margin: "0 auto",
-        padding: "24px",
-        marginTop: "80px",
+       maxWidth: "900px",
+    margin: "0 auto",
+    padding: "20px 16px", 
       }}
     >
       {/* Breadcrumb */}
@@ -52,7 +51,7 @@ const ProjectDetailed = () => {
       />
 
       {/* Title */}
-      <Title level={2} style={{ marginBottom: 16 }}>
+      <Title level={2} style={{ marginBottom: 16, textAlign: "left" }}>
         {Project.title}
       </Title>
 
@@ -107,7 +106,7 @@ const ProjectDetailed = () => {
         <Descriptions
           title="Work Info"
           bordered
-          column={{ xs: 1, sm: 1, md: 2, lg: 2, xl: 2 }}
+          column={1}
           size="default"
           labelStyle={{
             fontWeight: "bold",

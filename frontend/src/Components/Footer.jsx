@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaFacebook,FaGlobe} from "react-icons/fa";
 import { images } from "@/assets/assets";
 const footer = () => {
   return (
@@ -12,7 +12,7 @@ const footer = () => {
         <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
           <div className="md:max-w-96">
             <img
-              src={images.logo}
+              src={images.logoTm}
               style={{
                 filter: "brightness(0) invert(1)",
               }}
@@ -49,6 +49,14 @@ const footer = () => {
                 className="text-white hover:text-blue-600 transition-colors duration-300"
               >
                 <FaFacebook size={20} />
+              </a>
+              <a
+                href="https://www.sahilinfotech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-blue-600 transition-colors duration-300"
+              >
+                <FaGlobe size={20} />
               </a>
             </div>
           </div>

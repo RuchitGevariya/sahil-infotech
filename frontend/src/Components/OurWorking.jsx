@@ -54,7 +54,7 @@ export function OurWorking() {
       style={{ background: "#F7FBFD" }}
     >
       <div className="text-center mb-12" >
-        <h2 className="text-4xl font-bold text-gray-900" data-aos="fade-up">
+        <h2 className="text-4xl font-bold text-gray-900">
           Our Way of <span className="text-indigo-600">Working</span>
         </h2>
         <p className="font-medium py-5 text-gray-600 text-pretty max-w-2xl mx-auto">We implement result-driven strategies tailored to meet your business needs and goals. We offer solutions designed to empower your business and help you achieve your desired outcomes.</p>

@@ -25,17 +25,21 @@ const Project = () => {
                 hoverable
                 data-aos="fade-up"
                 style={{
-                   display: "flex",
-                  flexDirection: "column",
                   borderRadius: "12px",
                   overflow: "hidden",
-                  height: "100%", // allow auto height
+                  height: "100%", // important for equal height
+                  display: "flex",
+                  flexDirection: "column",
                 }}
                 cover={
                   <img
                     alt={item.title}
                     src={item.coverImage}
-                    style={{ height: "200px", width:"100%", objectFit: "cover" }}
+                    style={{
+                      height: "200px",
+                      width: "100%",
+                      objectFit: "cover",
+                    }}
                   />
                 }
                 bodyStyle={{
@@ -48,7 +52,14 @@ const Project = () => {
               >
                 <Meta
                   title={
-                    <span style={{ whiteSpace: "normal", wordBreak: "break-word", textAlign: "center" ,fontSize:"1rem"}}>
+                    <span
+                      style={{
+                        whiteSpace: "normal",
+                        wordBreak: "break-word",
+                        textAlign: "center",
+                        fontSize: "1rem",
+                      }}
+                    >
                       {item.title}
                     </span>
                   }
