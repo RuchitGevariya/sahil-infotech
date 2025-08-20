@@ -8,9 +8,7 @@ body{
     line-height: 1.6;
    overflow-x: hidden;
 }
-html, body {
-  overflow-x: hidden;
-}
+
 
 @layer base {
   * {
