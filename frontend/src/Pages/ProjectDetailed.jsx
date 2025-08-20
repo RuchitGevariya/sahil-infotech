@@ -1,21 +1,25 @@
-import {React,useEffect} from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 import { project } from "@/assets/assets";
-import { Typography, Descriptions, Image, Tag,Breadcrumb } from "antd";
-import {HomeOutlined, AppstoreOutlined   } from "@ant-design/icons";
+import { Typography, Descriptions, Image, Tag, Breadcrumb, Card } from "antd";
+import { HomeOutlined, AppstoreOutlined } from "@ant-design/icons";
+import { useMediaQuery } from "react-responsive";
+
 const { Title, Paragraph } = Typography;
 
 const ProjectDetailed = () => {
   const { id } = useParams();
-  const navigate = useNavigate();
-
   const Project = project.find((p) => p.id === Number(id));
+  const isMobile = useMediaQuery({ maxWidth: 500 }); // ✅ detect small screens
+
   if (!Project) {
     return <p>Project not Found</p>;
   }
+
   useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div
       style={{
@@ -25,19 +29,28 @@ const ProjectDetailed = () => {
         marginTop: "80px",
       }}
     >
-      {/* custmom path */}
-   <Breadcrumb
-   style={{ marginBottom: 16 }}
-   items={[
-    {title:(
-      <Link to="/"><HomeOutlined/> Home</Link>
-    )},
-      {title:(
-      <Link to="/works"><AppstoreOutlined/>Works</Link>
-    )},
-    {title:" Works Detailes"}
-   ]}
-   />
+      {/* Breadcrumb */}
+      <Breadcrumb
+        style={{ marginBottom: 16 }}
+        items={[
+          {
+            title: (
+              <Link to="/">
+                <HomeOutlined /> Home
+              </Link>
+            ),
+          },
+          {
+            title: (
+              <Link to="/works">
+                <AppstoreOutlined /> Works
+              </Link>
+            ),
+          },
+          { title: "Works Details" },
+        ]}
+      />
+
       {/* Title */}
       <Title level={2} style={{ marginBottom: 16 }}>
         {Project.title}
@@ -55,44 +68,83 @@ const ProjectDetailed = () => {
         }}
       />
 
-      {/* Description Paragraph */}
-      <Paragraph style={{ fontSize: "16px", lineHeight: "1.6" }}>
+      {/* Description */}
+      <Paragraph style={{ fontSize: "16px", lineHeight: "1.6",marginBottom: 24,
+    textAlign: "justify" }}>
         {Project.description}
       </Paragraph>
 
-      {/* Project Details */}
-      <Descriptions
-      title="Work Info"
-        bordered
-        column={{xs:1,sm:1,md:2,lg:2,xl:2}}
-        size="default"
-        labelStyle={{ fontWeight: "bold", width: "200px" }}
-      >
-            <Descriptions.Item label="ClientName">{Project.client?? "N/A"}</Descriptions.Item>
-        <Descriptions.Item label="Duration">{Project.duration}</Descriptions.Item>
-         <Descriptions.Item label="Tech Stack">
-          {Project.tags.map((tag, idx) => (
-            <Tag color="blue" key={idx}>
-              {tag}
-            </Tag>
-          ))}
-        </Descriptions.Item>
-        <Descriptions.Item label="Key Features">
-          <ul style={{ margin: 0, paddingLeft: 20 }}>
-            {Project.keyfeatures.map((item, idx) => (
-              <li key={idx}>{idx+1}. {item}</li>
+      {/* Work Info */}
+      {isMobile ? (
+        // ✅ Mobile Layout (Cards)
+        <div className="space-y-3">
+          <Card title="Client Name">{Project.client || "N/A"}</Card>
+          <Card title="Duration">{Project.duration}</Card>
+          <Card title="Tech Stack">
+            {Project.tags.map((tag, idx) => (
+              <Tag color="blue" key={idx}>
+                {tag}
+              </Tag>
             ))}
-          </ul>
-        </Descriptions.Item>
-        <Descriptions.Item label="Impact Delivered">
-          <ul style={{ margin: 0, paddingLeft: 20 }}>
-            {Project.impactdeliverd.map((item, idx) => (
-              <li key={idx}>{idx+1}. {item}</li>
+          </Card>
+          <Card title="Key Features">
+            <ul style={{ margin: 0, paddingLeft: 20 }}>
+              {Project.keyfeatures.map((item, idx) => (
+                <li key={idx}>{idx + 1}. {item}</li>
+              ))}
+            </ul>
+          </Card>
+          <Card title="Impact Delivered">
+            <ul style={{ margin: 0, paddingLeft: 20 }}>
+              {Project.impactdeliverd.map((item, idx) => (
+                <li key={idx}>{idx + 1}. {item}</li>
+              ))}
+            </ul>
+          </Card>
+        </div>
+      ) : (
+        // ✅ Desktop Layout (AntD Descriptions Table)
+        <Descriptions
+          title="Work Info"
+          bordered
+          column={{ xs: 1, sm: 1, md: 2, lg: 2, xl: 2 }}
+          size="default"
+          labelStyle={{
+            fontWeight: "bold",
+            width: "200px",
+            whiteSpace: "normal",
+            wordBreak: "break-word",
+          }}
+        >
+          <Descriptions.Item label="Client Name">
+            {Project.client ||"N/A"}
+          </Descriptions.Item>
+          <Descriptions.Item label="Duration">
+            {Project.duration}
+          </Descriptions.Item>
+          <Descriptions.Item label="Tech Stack">
+            {Project.tags.map((tag, idx) => (
+              <Tag color="blue" key={idx}>
+                {tag}
+              </Tag>
             ))}
-          </ul>
-        </Descriptions.Item>
-       
-      </Descriptions>
+          </Descriptions.Item>
+          <Descriptions.Item label="Key Features">
+            <ul style={{ margin: 0, paddingLeft: 20 }}>
+              {Project.keyfeatures.map((item, idx) => (
+                <li key={idx}>{idx + 1}. {item}</li>
+              ))}
+            </ul>
+          </Descriptions.Item>
+          <Descriptions.Item label="Impact Delivered">
+            <ul style={{ margin: 0, paddingLeft: 20 }}>
+              {Project.impactdeliverd.map((item, idx) => (
+                <li key={idx}>{idx + 1}. {item}</li>
+              ))}
+            </ul>
+          </Descriptions.Item>
+        </Descriptions>
+      )}
     </div>
   );
 };

@@ -222,7 +222,7 @@ client:"Viralpep(Social Media Management SAAS",
     description: "This comprehensive ERP system was developed for efficient administration of government pension schemes. Designed to improve transparency and streamline pension processing, the system handles thousands of pension transactions monthly, securely managing sensitive government employee data. Key features include automated pension calculations, an intuitive dashboard for real-time monitoring, and a secure database for accurate record-keeping. My role involved enhancing system architecture and optimizing SQL Server to handle a high volume of queries, reducing processing time by 30% and improving data accuracy across departments.",
     tags: ["NET MVC", "SQL Server"],
     duration: "25 Weeks",
-    keyfeatures: [
+    keyfeatures:[
       "Automated pension calculations for accuracy and efficiency",
       "Intuitive dashboard for real-time pension processing and monitoring",
       "Secure database to manage sensitive government employee data",

@@ -25,27 +25,30 @@ const Project = () => {
                 hoverable
                 data-aos="fade-up"
                 style={{
-                  height: 320, 
-                  display: "flex",
+                   display: "flex",
                   flexDirection: "column",
+                  borderRadius: "12px",
+                  overflow: "hidden",
+                  height: "100%", // allow auto height
                 }}
                 cover={
                   <img
                     alt={item.title}
                     src={item.coverImage}
-                    style={{ height: "200px", objectFit: "cover" }}
+                    style={{ height: "200px", width:"100%", objectFit: "cover" }}
                   />
                 }
                 bodyStyle={{
-                  padding: "8px 12px",
+                  padding: "12px",
                   flex: 1,
                   display: "flex",
-                  alignItems: "center", // vertically center title
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <Meta
                   title={
-                    <span style={{ whiteSpace: "normal", wordBreak: "break-word", textAlign: "center" }}>
+                    <span style={{ whiteSpace: "normal", wordBreak: "break-word", textAlign: "center" ,fontSize:"1rem"}}>
                       {item.title}
                     </span>
                   }
