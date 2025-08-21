@@ -87,7 +87,7 @@ const footer = () => {
                 {[
                   "UI/Ux Design",
                   "Web Design & Development",
-                  "MERN Stack Development",
+                  "Full Stack Development",
                   "AI Services",
                   "DevOps Services",
                   "QA Testing",

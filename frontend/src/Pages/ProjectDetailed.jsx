@@ -23,9 +23,9 @@ const ProjectDetailed = () => {
   return (
     <div
       style={{
-       maxWidth: "900px",
-    margin: "0 auto",
-    padding: "20px 16px", 
+        maxWidth: "900px",
+        margin: "0 auto",
+        padding: "20px 16px",
       }}
     >
       {/* Breadcrumb */}
@@ -68,8 +68,14 @@ const ProjectDetailed = () => {
       />
 
       {/* Description */}
-      <Paragraph style={{ fontSize: "16px", lineHeight: "1.6",marginBottom: 24,
-    textAlign: "justify" }}>
+      <Paragraph
+        style={{
+          fontSize: "16px",
+          lineHeight: "1.6",
+          marginBottom: 24,
+          textAlign: "justify",
+        }}
+      >
         {Project.description}
       </Paragraph>
 
@@ -77,26 +83,49 @@ const ProjectDetailed = () => {
       {isMobile ? (
         // ✅ Mobile Layout (Cards)
         <div className="space-y-3">
-          <Card title="Client Name">{Project.client || "N/A"}</Card>
-          <Card title="Duration">{Project.duration}</Card>
-          <Card title="Tech Stack">
+          <Card
+            title="Client Name"
+            headStyle={{ backgroundColor: "#d9dddf", fontWeight: "bold" }}
+          >
+            {Project.client || "N/A"}
+          </Card>
+          <Card
+            title="Duration"
+            headStyle={{ backgroundColor: "#d9dddf", fontWeight: "bold" }}
+          >
+            {Project.duration}
+          </Card>
+          <Card
+            title="Tech Stack"
+            headStyle={{ backgroundColor: "#d9dddf", fontWeight: "bold" }}
+          >
             {Project.tags.map((tag, idx) => (
               <Tag color="blue" key={idx}>
                 {tag}
               </Tag>
             ))}
           </Card>
-          <Card title="Key Features">
+          <Card
+            title="Key Features"
+            headStyle={{ backgroundColor: "#d9dddf", fontWeight: "bold" }}
+          >
             <ul style={{ margin: 0, paddingLeft: 20 }}>
               {Project.keyfeatures.map((item, idx) => (
-                <li key={idx}>{idx + 1}. {item}</li>
+                <li key={idx}>
+                  {idx + 1}. {item}
+                </li>
               ))}
             </ul>
           </Card>
-          <Card title="Impact Delivered">
+          <Card
+            title="Impact Delivered"
+            headStyle={{ backgroundColor: "#d9dddf", fontWeight: "bold" }}
+          >
             <ul style={{ margin: 0, paddingLeft: 20 }}>
               {Project.impactdeliverd.map((item, idx) => (
-                <li key={idx}>{idx + 1}. {item}</li>
+                <li key={idx}>
+                  {idx + 1}. {item}
+                </li>
               ))}
             </ul>
           </Card>
@@ -116,7 +145,7 @@ const ProjectDetailed = () => {
           }}
         >
           <Descriptions.Item label="Client Name">
-            {Project.client ||"N/A"}
+            {Project.client || "N/A"}
           </Descriptions.Item>
           <Descriptions.Item label="Duration">
             {Project.duration}
@@ -131,14 +160,18 @@ const ProjectDetailed = () => {
           <Descriptions.Item label="Key Features">
             <ul style={{ margin: 0, paddingLeft: 20 }}>
               {Project.keyfeatures.map((item, idx) => (
-                <li key={idx}>{idx + 1}. {item}</li>
+                <li key={idx}>
+                  {idx + 1}. {item}
+                </li>
               ))}
             </ul>
           </Descriptions.Item>
           <Descriptions.Item label="Impact Delivered">
             <ul style={{ margin: 0, paddingLeft: 20 }}>
               {Project.impactdeliverd.map((item, idx) => (
-                <li key={idx}>{idx + 1}. {item}</li>
+                <li key={idx}>
+                  {idx + 1}. {item}
+                </li>
               ))}
             </ul>
           </Descriptions.Item>
