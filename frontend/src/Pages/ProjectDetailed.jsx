@@ -56,7 +56,7 @@ const ProjectDetailed = () => {
       </Title>
 
       {/* Cover Image */}
-      <image
+      <img
         src={Project.coverImage}
         alt={Project.title}
         width="100%"
