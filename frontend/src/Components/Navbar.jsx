@@ -34,28 +34,7 @@ const Navbar = () => {
             Home
           </NavLink>
 
-          {/* Services Dropdown (showcase only) */}
-<div className="relative group">
-  <span className="cursor-pointer text-gray-700 transition-colors">
-    Services
-  </span>
 
-  <div
-    className="absolute left-0 mt-2 opacity-0 scale-95 invisible 
-               group-hover:opacity-100 group-hover:scale-100 group-hover:visible
-               bg-white/90 backdrop-blur-md shadow-lg rounded-md 
-               w-64 p-4 z-50 transition-all duration-300 ease-in-out"
-  >
-    <h3 className="font-semibold text-gray-900 mb-2">Our Services</h3>
-    <ul className="space-y-2">
-      {services.map((service, index) => (
-        <li key={index} className="text-gray-700 cursor-default">
-          {service}
-        </li>
-      ))}
-    </ul>
-  </div>
-</div>
 
 <NavLink to="/works" className={linkClass}>
             Works
@@ -109,19 +88,7 @@ const Navbar = () => {
               Contact-Us
             </NavLink>
           </li>
-          {/* Services showcase (plain list) */}
-          <li>
-            <h3 className="font-semibold text-gray-900">Our Services</h3>
-            <ul className="pl-2 mt-2 space-y-2">
-              {services.map((service, index) => (
-                <li key={index} className="text-gray-600">
-                  {service}
-                </li>
-              ))}
-            </ul>
-          </li>
-
-         
+        
         </ul>
       </Drawer>
     </motion.nav>
