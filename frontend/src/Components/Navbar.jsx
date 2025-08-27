@@ -35,7 +35,7 @@ const Navbar = () => {
           </NavLink>
 
           {/* Services Dropdown (showcase only) */}
-          {/* <div className="relative group">
+<div className="relative group">
   <span className="cursor-pointer text-gray-700 transition-colors">
     Services
   </span>
@@ -55,8 +55,9 @@ const Navbar = () => {
       ))}
     </ul>
   </div>
-</div> */}
-          <NavLink to="/works" className={linkClass}>
+</div>
+
+<NavLink to="/works" className={linkClass}>
             Works
           </NavLink>
 
@@ -109,7 +110,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           {/* Services showcase (plain list) */}
-          {/* <li>
+          <li>
             <h3 className="font-semibold text-gray-900">Our Services</h3>
             <ul className="pl-2 mt-2 space-y-2">
               {services.map((service, index) => (
@@ -118,7 +119,9 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </li> */}
+          </li>
+
+         
         </ul>
       </Drawer>
     </motion.nav>
