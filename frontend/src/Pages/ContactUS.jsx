@@ -64,10 +64,10 @@ export default function ContactUS() {
       </div>
       </header>
       <section id="contact" className=" bg-white mt-0 mb-0 px-10 py-10">
-        <div className="max-w-7xl mx-auto mt-10">
+        <div className="max-w-7xl mx-auto mt-5">
           <div className="flex flex-col lg:flex-row gap-10">
             {/* Left Side - Contact Info */}
-            <div className="flex-1 space-y-6 mt-10">
+            <div className="flex-1 space-y-6  mt-5">
               <div className="flex gap-4 items-start">
                 <MailOutlined className="text-blue-500 text-2xl" />
                 <div>

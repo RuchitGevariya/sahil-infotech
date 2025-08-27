@@ -64,7 +64,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/"
-              className="block text-gray-700 hover:text-blue-600 text-lg"
+              className={`block text-gray-700 hover:text-blue-600 text-lg`}
               onClick={() => setDrawerOpen(false)}
             >
               Home
