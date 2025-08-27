@@ -56,7 +56,7 @@ const ProjectDetailed = () => {
       </Title>
 
       {/* Cover Image */}
-      <Image
+      <img
         src={Project.coverImage}
         alt={Project.title}
         width="100%"
@@ -76,7 +76,10 @@ const ProjectDetailed = () => {
           textAlign: "justify",
         }}
       >
-        {Project.description}
+        {Project.description
+          .replace(/\s*,\s*/g, ",")
+          .replace(/\s+/g, " ")
+          .trim()}
       </Paragraph>
 
       {/* Work Info */}

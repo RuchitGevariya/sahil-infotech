@@ -12,8 +12,8 @@ const Project = () => {
     <div style={{ padding: "40px" }}>
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-4xl font-bold text-gray-900">
-          Featured <span className="text-indigo-600">Projects</span>
-        </h2>
+          Featured <Link to={"/works"}><span className="text-indigo-600">Projects</span>
+        </Link></h2>
         <p className="text-gray-600 mt-2">A selection of recent work.</p>
       </div>
 

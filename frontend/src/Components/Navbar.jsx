@@ -13,15 +13,7 @@ const Navbar = () => {
       isActive ? "text-blue-600 font-semibold" : "text-gray-700"
     }`;
 
-  // ✅ Services: just names, no links
-  const services = [
-    "UI/UX Design",
-    "Web Design & Development",
-    "Full Stack Development",
-    "AI Services",
-    "DevOps Services",
-    "QA Testing",
-  ];
+
 
   return (
     <motion.nav
@@ -41,10 +33,9 @@ const Navbar = () => {
           <NavLink to="/" className={linkClass}>
             Home
           </NavLink>
-          
 
           {/* Services Dropdown (showcase only) */}
-<div className="relative group">
+          {/* <div className="relative group">
   <span className="cursor-pointer text-gray-700 transition-colors">
     Services
   </span>
@@ -64,9 +55,8 @@ const Navbar = () => {
       ))}
     </ul>
   </div>
-</div>
-
-<NavLink to="/works" className={linkClass}>
+</div> */}
+          <NavLink to="/works" className={linkClass}>
             Works
           </NavLink>
 
@@ -74,9 +64,11 @@ const Navbar = () => {
             Contact-Us
           </NavLink>
         </div>
-
         {/* Mobile Drawer Trigger */}
-        <div className="md:hidden cursor-pointer" onClick={() => setDrawerOpen(true)}>
+        <div
+          className="md:hidden cursor-pointer"
+          onClick={() => setDrawerOpen(true)}
+        >
           <FaBars size={24} />
         </div>
       </div>
@@ -107,7 +99,7 @@ const Navbar = () => {
               Works
             </NavLink>
           </li>
- <li>
+          <li>
             <NavLink
               to="/contact"
               className="block text-gray-700 hover:text-blue-600 text-lg"
@@ -117,7 +109,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           {/* Services showcase (plain list) */}
-          <li>
+          {/* <li>
             <h3 className="font-semibold text-gray-900">Our Services</h3>
             <ul className="pl-2 mt-2 space-y-2">
               {services.map((service, index) => (
@@ -126,9 +118,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </li>
-
-         
+          </li> */}
         </ul>
       </Drawer>
     </motion.nav>

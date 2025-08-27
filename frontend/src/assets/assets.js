@@ -76,32 +76,8 @@ export const project=[
   tags: ["React", "Tailwind CSS", "Node.js"]
 },
 
-  {
-  id: 4,
-  title: "Social Media That Speaks, Sells & Sticks",
-  category: "web development",
-  client:"Multi-industry Brands",
-  description:
-    "We delivered impactful social media campaigns for multi-industry brands, focusing on content strategy, visual branding, and conversion design. The approach blended minimal yet magnetic visuals with data-driven storytelling to drive meaningful audience connections.",
-  keyfeatures: [
-    "Minimal yet magnetic designs",
-    "High-converting reels & posts",
-    "Emotion-led storytelling",
-    "Weekly calendars & ad creatives"
-  ],
-  impactdeliverd: [
-    "Boosted engagement and follower growth across diverse industries",
-    "Improved brand perception through consistent visual identity",
-    "Increased conversions from social media campaigns",
-    "Streamlined content production with structured weekly calendars"
-  ],
-  duration: "Project-based & Retainer",
-  clientName: "Multi-industry Brands (Fashion, Tech, Chemicals, Food, Jewellery)",
-  coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755170847/SocialMedia_hiv1na.png",
-  tags: ["Content Strategy", "Visual Branding", "Conversion Design"]
-},
    {
-  id: 5,
+  id: 4,
   title: "NSARCO Platform Revamp & Registration Streamline",
   category: "web development",
 client:"National Service Animal Registy,USA",
@@ -123,7 +99,7 @@ client:"National Service Animal Registy,USA",
   tags: ["React", "Node.js", "PostgreSQL", "AWS", "Elasticsearch"]
 },
    {
-  id: 6,
+  id: 5,
   title: "Viralpep All-in-One Social Media Scheduling Ecosystem",
   category: "web development",
 client:"Viralpep(Social Media Management SAAS",
@@ -145,7 +121,7 @@ client:"Viralpep(Social Media Management SAAS",
   tags: ["React", "Node.js", "PostgreSQL", "REST APIs", "AWS"]
 },
 {
-  id: 7,
+  id: 6,
   title: "RannUtsav Tent City Portal & Festival Experience Platform",
   category: "web devlopment",
  client:"Rann Utsav(Gujrat Tourism Initiative)",
@@ -168,7 +144,7 @@ client:"Viralpep(Social Media Management SAAS",
   tags: ["Next.js", "Node.js", "PostgreSQL", "AWS", "Elasticsearch"]
 },
 {
-  id: 8,
+  id: 7,
   title: "IRG Cayman Luxury Real Estate & Global Reach",
   category: "web development",
  client:"Internation Realty Group,Cayman Islands",
@@ -191,7 +167,7 @@ client:"Viralpep(Social Media Management SAAS",
 }, 
 
 {
-  id: 9,
+  id: 8,
   title: "Smart Health Management for Clinics and Hospitals",
   category: ".NET Development",
   client: "Dr. Patient Meetup Application",
@@ -214,7 +190,7 @@ client:"Viralpep(Social Media Management SAAS",
   tags: [".NET MVC", "SQL Server"]
 },
  {
-    id: 10,
+    id: 9,
     title: "E-Commerce Sales Analysis - Government Pension Management System",
     client:"",
     category: "dot net",
@@ -236,11 +212,11 @@ client:"Viralpep(Social Media Management SAAS",
      coverImage: "https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/2_E-Commerce_Sales_Analysis_lxxmcr.png",
   },
   {
-    id: 11,
+    id: 10,
     title: "Crystova Jewellery Website",
     client:"",
     category: "web development",
-    description: "An e-commerce website offering a luxurious online shopping experience tailored to showcase fine ornaments. Features include a high-resolution product catalog with images and videos, advanced search filters, secure payments, real-time inventory updates, virtual try-on tools, customization options, and loyalty programs. Backend integrates with inventory, CRM, and marketing tools for smooth operations and scalability.",
+    description: "An e-commerce website offering a luxurious online shopping experience tailored to showcase fine ornaments.Features include a high-resolution product catalog with images and videos, advanced search filters,secure payments, real-time inventory updates, virtual try-on tools, customization options, and loyalty programs. Backend integrates with inventory, CRM, and marketing tools for smooth operations and scalability.",
     tags: ["React Js", "Node Js", "MongoDB"],
     duration: "25 Weeks",
     keyfeatures: [
@@ -258,7 +234,7 @@ client:"Viralpep(Social Media Management SAAS",
     coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/3_Crystova_Jewellery_Website_nlfzhu.png"
   },
    {
-    id: 12,
+    id: 11,
     title: "Purecarat Jewellery Website",
     category: "shopify",
     client:"",
@@ -280,7 +256,7 @@ client:"Viralpep(Social Media Management SAAS",
     coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/4_Purecarat_Jewellery_Website_wrl5gp.png"
   },
    {
-    id: 13,
+    id: 12,
     title: "Shipment Booking and Tracking System",
     category: ".NET Development",
     client:"",
@@ -302,7 +278,7 @@ client:"Viralpep(Social Media Management SAAS",
     coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/5_Shipment_Booking_and_Tracking_System_bx5qfv.png"
   },
   {
-    id: 14,
+    id: 13,
     category: ".NET Development",
     client:"",
     title: "Multi-Warehouse E-commerce Platform",
@@ -324,7 +300,7 @@ client:"Viralpep(Social Media Management SAAS",
     coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/6_Multi-Warehouse_E-commerce_Platform_qd45mx.png"
   },
   {
-  id: 15,
+  id: 14,
   category: ".NET Development",
   client:"",
   title: "Property Management Software for Real Estate Portfolios",
@@ -346,7 +322,7 @@ client:"Viralpep(Social Media Management SAAS",
   coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265158/7_Property_Management_Software_for_Real_Estate_Portfolios_nlwfr1.png"
 },
 {
-  id: 16,
+  id: 15,
    client:"",
   category: ".NET Development",
   title: "Trade and Land Management Platform for Hunting Properties",

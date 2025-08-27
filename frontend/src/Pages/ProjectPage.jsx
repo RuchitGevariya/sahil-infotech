@@ -123,14 +123,14 @@ const ProjectPage = () => {
           ))}
         </Row>
         {/* Pagination */}
-        <div style={{ marginTop: "30px", textAlign: "center" }}>
+        <div className="text-center  mt-5 mb-5">
           <Pagination
+           align="end"
             current={currentPage}
             pageSize={cardPerPage}
             total={filterData.length}
             onChange={handlePageChange}
             showSizeChanger={false} // hides the page size dropdown
-            showQuickJumper
           />
         </div>
       </div>
