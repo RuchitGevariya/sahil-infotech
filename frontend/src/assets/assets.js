@@ -356,8 +356,7 @@ export const project = [
     client: "",
     category: ".NET Development",
     title: "Trade and Land Management Platform for Hunting Properties",
-    Description:
-      "Specialized platform for listing, booking, and secure transactions of hunting land properties with membership and analytics features. I developed and implemented core functionalities, including membership management and payment gateway integration, ensuring a seamless experience for property transactions in a specialized marketplace.",
+    Description:"Specialized platform for listing,booking,and secure transactions of hunting land properties with membership and analytics features.I developed and implemented core functionalities,including membership management and payment gateway integration,ensuring a seamless experience for property transactions in a specialized marketplace.",
 
     tags: ["NET Core", "SQL Server", "Power BI", "Payment Gateway Integration"],
     duration: "25 Weeks",
@@ -372,21 +371,16 @@ export const project = [
       "Increased user engagement through membership-based premium features",
       "Improved sales and booking strategies with data-driven insights",
       "Enhanced transaction security and user trust with integrated payment solutions",
-    ],
-    coverImage:
-      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/8_Trade_and_Land_Management_Platform_for_Hunting_Properties_yuhynb.png",
+    ],    coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/8_Trade_and_Land_Management_Platform_for_Hunting_Properties_yuhynb.png",
   },
   {
     id: 16,
     client: "MyDreamPod",
     category: "Web Development",
     title: "MyDreamPod Dual-Comfort Mattresses & Sleep Essentials",
-    description:
-      "Revamped MyDreamPod’s e-commerce platform to spotlight dual-firmness mattresses, bundled sleep products, and seamless purchasing with enhanced trust and usability. Focused on delivering an engaging shopping journey with modern UI/UX improvements.",
-
-    tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
+description:"Revamped MyDreamPod’s e-commerce platform to spotlight dual-firmness mattresses,bundled sleep products, and seamless purchasing with enhanced trust and usability.Focused on delivering an engaging shopping journey with modern UI/UX improvements.",
+tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
     duration: "20 Weeks",
-
     keyfeatures: [
       "Showcased dual-comfort orthopedic mattresses with detailed product pages",
       "Seamless cart and checkout process with integrated Stripe payments",
@@ -407,8 +401,7 @@ export const project = [
     client: "Ryde Cayman & HLB Berman Fisher (Cayman Islands)",
     category: "Custom Web Solution",
     title: "Ryde-A-Thon 24-Hour Charity Challenge & Community Engagement",
-    description:
-      "Elevated the digital experience for Ryde-A-Thon, the Cayman Islands’ annual 24-hour cycling/running fundraiser. Delivered effortless team registration, real-time fundraising tracking, and an immersive event showcase accessible across all devices.",
+ description:"Elevated the digital experience for Ryde-A-Thon,the Cayman Islands’annual 24-hour cycling/running fundraiser.Delivered effortless team registration,real-time fundraising tracking, and an immersive event showcase accessible across all devices.",
 
     tags: [
       "Custom CMS",
@@ -440,8 +433,7 @@ export const project = [
     client: "eTickets.ca (Canada)",
     category: "Web development",
     title: "eTickets.ca – Canada’s Vast Ticketing Network",
-    description:
-      "Transformed eTickets.ca into a dynamic, user-friendly hub for sports, concerts, Broadway, and theatre tickets. Focused on elevating visibility, simplifying booking, and building trust through secure transactions and seamless UX.",
+  description:"Transformed eTickets.ca into a dynamic,user-friendly hub for sports, concerts,Broadway,and theatre tickets. Focused on elevating visibility,simplifying booking, and building trust through secure transactions and seamless UX.",
     tags: [
       "React",
       "Node.js",
@@ -467,8 +459,7 @@ export const project = [
     client: "Doin’Denimz",
     category: "Web Development",
     title: "Doin’Denimz – Premium Denim E-commerce Website",
-    description:
-      "Built a premium, fully dynamic e-commerce platform featuring advanced product filters, immersive 3D jeans previews, and a responsive design — delivering a seamless, high-end shopping experience.",
+description:"Built a premium, fully dynamic e-commerce platform featuring advanced product filters, immersive 3D jeans previews, and a responsive design — delivering a seamless, high-end shopping experience.",
     tags: ["React.js", "Django", "3D Model Integration", "E-commerce"],
     duration: "25 Weeks",
     keyfeatures: [
@@ -490,7 +481,7 @@ coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjv
     category: "Web Development",
     title: "PhysioPro Assist – Responsive Clinic Management Platform",
     description:
-      "Built a responsive platform for physiotherapy professionals with appointment scheduling, patient record tracking, and real-time treatment updates — streamlining workflows and improving patient interaction.",
+      "Built a responsive platform for physiotherapy professionals with appointment scheduling, patient record tracking, and real-time treatment updates—streamlining workflows and improving patient interaction.",
     tags: ["React.js", "Node.js", "Clinic Management", "Healthcare"],
     duration: "2 Weeks",
     keyfeatures: [
@@ -512,7 +503,7 @@ coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjv
   title: "Smrutimind Care",
   category: "Healthcare & Wellness Platform",
   client: "Smrutimind",
-  description: "We built an accessible, responsive mental health and wellness platform — featuring appointment booking, interactive resources, and a seamless user experience across devices, making mental health support easier and more engaging.",
+  description: "We built an accessible, responsive mental health and wellness platform—featuring appointment booking, interactive resources,and a seamless user experience across devices,making mental health support easier and more engaging.",
   keyfeatures: [
     "Appointment booking and management system",
     "Interactive mental health resources and exercises",
