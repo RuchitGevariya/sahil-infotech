@@ -488,8 +488,7 @@ export const project = [
       "Boosted mobile sales through responsive design",
     ],
 
-    coverImage:
-      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390045/denim-placeholder.jpg",
+    coverImage:      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
   },
   {
     id: 20,
@@ -513,7 +512,6 @@ export const project = [
       "Enabled faster and more accurate treatment tracking",
       "Enhanced overall clinic productivity and efficiency",
     ],
-    coverImage:
-      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1755170859/MyDreamPod_eoeavw.jpg",
+    coverImage:    "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
   },
 ];
