@@ -459,8 +459,8 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
     client: "Doin’Denimz",
     category: "Web Development",
     title: "Doin’Denimz – Premium Denim E-commerce Website",
-description:"Built a premium, fully dynamic e-commerce platform featuring advanced product filters, immersive 3D jeans previews, and a responsive design — delivering a seamless, high-end shopping experience.",
-    tags: ["React.js", "Django", "3D Model Integration", "E-commerce"],
+description:"Built a premium,fully dynamic e-commerce platform featuring advanced product filters,immersive 3D jeans previews, and a responsive design—delivering a seamless,high-end shopping experience.",
+ tags: ["React.js", "Django", "3D Model Integration", "E-commerce"],
     duration: "25 Weeks",
     keyfeatures: [
       "Interactive shopping with advanced filtering",
@@ -480,8 +480,7 @@ coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjv
     client: "PhysioPro Assist",
     category: "Web Development",
     title: "PhysioPro Assist – Responsive Clinic Management Platform",
-    description:
-      "Built a responsive platform for physiotherapy professionals with appointment scheduling, patient record tracking, and real-time treatment updates—streamlining workflows and improving patient interaction.",
+description:"Built a responsive platform for physiotherapy professionals with appointment scheduling,patient record tracking,and real-time treatment updates—streamlining workflows and improving patient interaction.",
     tags: ["React.js", "Node.js", "Clinic Management", "Healthcare"],
     duration: "2 Weeks",
     keyfeatures: [
