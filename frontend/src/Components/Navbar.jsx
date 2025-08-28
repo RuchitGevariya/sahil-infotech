@@ -12,9 +12,6 @@ const Navbar = () => {
     `hover:text-blue-600 transition-colors ${
       isActive ? "text-blue-600 font-semibold" : "text-gray-700"
     }`;
-
-
-
   return (
     <motion.nav
       className="fixed top-0 left-0 w-full bg-white shadow-md z-50"
@@ -33,8 +30,6 @@ const Navbar = () => {
           <NavLink to="/" className={linkClass}>
             Home
           </NavLink>
-
-
 
 <NavLink to="/works" className={linkClass}>
             Works
