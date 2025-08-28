@@ -514,4 +514,26 @@ export const project = [
     ],
     coverImage:    "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
   },
+{
+  id:21,
+  title: "Smrutimind Care",
+  category: "Healthcare & Wellness Platform",
+  client: "Smrutimind",
+  description: "We built an accessible, responsive mental health and wellness platform — featuring appointment booking, interactive resources, and a seamless user experience across devices, making mental health support easier and more engaging.",
+  keyfeatures: [
+    "Appointment booking and management system",
+    "Interactive mental health resources and exercises",
+    "Responsive, mobile-friendly user interface",
+    "Accessible and user-centric design",
+    "Fast performance with smooth navigation"
+  ],
+  impactdeliverd: [
+    "Simplified access to mental health support for users",
+    "Increased engagement with wellness resources",
+    "Enhanced satisfaction through seamless experience across devices",
+    "Streamlined session management for mental health professionals"
+  ],
+  duration: "2 Weeks", coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/6_kzpjsv.png",
+  tags: ["ReactJS"]
+}
 ];
