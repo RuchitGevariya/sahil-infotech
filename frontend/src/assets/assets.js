@@ -400,10 +400,7 @@ export const project = [
       "Boosted online sales with simplified checkout and bundle offers",
       "Built customer trust through transparent reviews and secure transactions",
       "Delivered scalable e-commerce solution adaptable to future product lines",
-    ],
-
-    coverImage:
-      "https://res.cloudinary.com/demo/image/upload/v1724849567/MyDreamPod.png",
+    ],  coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
   },
   {
     id: 17,
@@ -463,9 +460,7 @@ export const project = [
       "Enhanced Discoverability: Optimized filtering and search elevated user journeys and reduced bounce rates",
       "Trust & Transparency: Prominent guarantees and secure UX boosted credibility in a competitive resale market",
       "Cross-Platform Usability: Mobile-first design with real-time features improved booking speed and convenience",
-    ],
-    coverImage:
-      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390044/3_yxk03p.jpg",
+    ],   coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390044/3_yxk03p.jpg",
   },
   {
     id: 19,
@@ -487,8 +482,7 @@ export const project = [
       "Improved purchase conversions with streamlined user flow",
       "Boosted mobile sales through responsive design",
     ],
-
-    coverImage:      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
+coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjvli.png",
   },
   {
     id: 20,
@@ -511,8 +505,7 @@ export const project = [
       "Improved patient engagement and interaction",
       "Enabled faster and more accurate treatment tracking",
       "Enhanced overall clinic productivity and efficiency",
-    ],
-    coverImage:    "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
+    ],   coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/5_t9wy7b.png"  
   },
 {
   id:21,
