@@ -79,7 +79,7 @@ export default function ContactUS() {
                 <PhoneOutlined className="text-blue-500 text-2xl" />
                 <div>
                   <h3 className="font-semibold text-lg">Phone Number</h3>
-                  <p className="text-gray-600">+91 90167-38858</p>
+                  <p className="text-gray-600">+49 176 56706907</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start">
