@@ -7,11 +7,13 @@ const { Meta } = Card;
 const ProjectPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const categories = [
+  const categories=[
     "All",
     "Web Development",
     ".Net Development",
-    "Chat Solution"
+    "Chat Solution",
+    "Custom Web Solution",
+    "Shopify Solution"
   ];
 
   const cardPerPage = 6;
