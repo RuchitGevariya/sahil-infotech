@@ -105,7 +105,7 @@ const footer = () => {
               <h2 className="font-semibold mb-5">Get in touch</h2>
               <div className="text-sm space-y-2">
                 <p className="hover:text-blue-500 transition-colors duration-300">
-                  +91 90167-38858
+                +49 176 56706907
                 </p>
                 <p className="hover:text-blue-500 transition-colors duration-300">
                   sahilinfotech@yahoo.com
