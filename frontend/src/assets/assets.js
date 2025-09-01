@@ -127,7 +127,7 @@ export const project = [
   {
     id: 6,
     title: "RannUtsav Tent City Portal & Festival Experience Platform",
-    category: "web devlopment",
+    category: "web development",
     client: "Rann Utsav(Gujrat Tourism Initiative)",
     description:
       "We transformed the RannUtsav site into a vibrant, user-friendly portal that invites global visitors to explore the White Desert Tent City, book packages, and discover cultural festivities with ease and elegance.",
@@ -143,9 +143,8 @@ export const project = [
       "Optimized package listings and call-to-action buttons significantly increased bookings and inquiries",
       "Built on a robust stack for seasonal traffic surges and future feature expansions",
     ],
-    duration: "3 Weeks",
-    coverImage:
-      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1755170847/RannUtsav_dwizmx.png",
+    duration:"3 Weeks",
+    coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755170847/RannUtsav_dwizmx.png",
     tags: ["Next.js", "Node.js", "PostgreSQL", "AWS", "Elasticsearch"],
   },
   {
@@ -200,7 +199,7 @@ export const project = [
     id: 9,
     title: "E-Commerce Sales Analysis - Government Pension Management System",
     client: "",
-    category: "dot net",
+    category: ".NET Development",
     description:
       "This comprehensive ERP system was developed for efficient administration of government pension schemes. Designed to improve transparency and streamline pension processing, the system handles thousands of pension transactions monthly, securely managing sensitive government employee data. Key features include automated pension calculations, an intuitive dashboard for real-time monitoring, and a secure database for accurate record-keeping. My role involved enhancing system architecture and optimizing SQL Server to handle a high volume of queries, reducing processing time by 30% and improving data accuracy across departments.",
     tags: ["NET MVC", "SQL Server"],
@@ -247,7 +246,7 @@ export const project = [
   {
     id: 11,
     title: "Purecarat Jewellery Website",
-    category: "shopify",
+    category:"Shopify Solution",
     client: "",
     description:
       "An e-commerce platform developed using Shopify to showcase fine ornaments. Includes a high-resolution catalog, advanced search filters, secure Shopify payment gateways, real-time inventory updates, virtual try-on tools, customization options, and loyalty programs. Backend integration ensures smooth operations and scalability.",
@@ -305,14 +304,14 @@ export const project = [
     description:
       "An advanced e-commerce platform managing inventory and orders across multiple warehouses, with a Flutter mobile app for cross-platform functionality. Supports real-time inventory tracking, automated order processing, and distributor coordination. Optimized with SQL Server and Dapper for 50% faster queries, improving logistics efficiency by 30%.",
     tags: ["NET Core", "SQL Server", "Dapper", "JavaScript", "Flutter"],
-    duration: "25 Weeks",
-    keyfeatures: [
+    duration:"25 Weeks",
+    keyfeatures:[
       "Real-time multi-warehouse inventory tracking",
       "Cross-platform mobile app in Flutter",
       "Automated order processing and streamlined distributor coordination",
       "Optimized database using SQL Server and Dapper",
     ],
-    impactdeliverd: [
+    impactdeliverd:[
       "Improved logistics efficiency by 30%",
       "Enabled real-time stock updates across warehouses",
       "Enhanced warehouse staff productivity with mobile access",
@@ -356,7 +355,8 @@ export const project = [
     client: "",
     category: ".NET Development",
     title: "Trade and Land Management Platform for Hunting Properties",
-    Description:"Specialized platform for listing,booking,and secure transactions of hunting land properties with membership and analytics features.I developed and implemented core functionalities,including membership management and payment gateway integration,ensuring a seamless experience for property transactions in a specialized marketplace.",
+    description:
+      "Specialized platform for listing,booking,and secure transactions of hunting land properties with membership and analytics features.I developed and implemented core functionalities,including membership management and payment gateway integration,ensuring a seamless experience for property transactions in a specialized marketplace.",
 
     tags: ["NET Core", "SQL Server", "Power BI", "Payment Gateway Integration"],
     duration: "25 Weeks",
@@ -371,15 +371,18 @@ export const project = [
       "Increased user engagement through membership-based premium features",
       "Improved sales and booking strategies with data-driven insights",
       "Enhanced transaction security and user trust with integrated payment solutions",
-    ],    coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/8_Trade_and_Land_Management_Platform_for_Hunting_Properties_yuhynb.png",
+    ],
+    coverImage:
+      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1755265159/8_Trade_and_Land_Management_Platform_for_Hunting_Properties_yuhynb.png",
   },
   {
     id: 16,
     client: "MyDreamPod",
     category: "Web Development",
     title: "MyDreamPod Dual-Comfort Mattresses & Sleep Essentials",
-description:"Revamped MyDreamPod’s e-commerce platform to spotlight dual-firmness mattresses,bundled sleep products, and seamless purchasing with enhanced trust and usability.Focused on delivering an engaging shopping journey with modern UI/UX improvements.",
-tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
+    description:
+      "Revamped MyDreamPod’s e-commerce platform to spotlight dual-firmness mattresses,bundled sleep products, and seamless purchasing with enhanced trust and usability.Focused on delivering an engaging shopping journey with modern UI/UX improvements.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
     duration: "20 Weeks",
     keyfeatures: [
       "Showcased dual-comfort orthopedic mattresses with detailed product pages",
@@ -394,15 +397,17 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
       "Boosted online sales with simplified checkout and bundle offers",
       "Built customer trust through transparent reviews and secure transactions",
       "Delivered scalable e-commerce solution adaptable to future product lines",
-    ],  coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
+    ],
+    coverImage:
+      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/1_owly4g.jpg",
   },
   {
     id: 17,
     client: "Ryde Cayman & HLB Berman Fisher (Cayman Islands)",
     category: "Custom Web Solution",
     title: "Ryde-A-Thon 24-Hour Charity Challenge & Community Engagement",
- description:"Elevated the digital experience for Ryde-A-Thon,the Cayman Islands’annual 24-hour cycling/running fundraiser.Delivered effortless team registration,real-time fundraising tracking, and an immersive event showcase accessible across all devices.",
-
+    description:
+      "Elevated the digital experience for Ryde-A-Thon,the Cayman Islands’annual 24-hour cycling/running fundraiser.Delivered effortless team registration,real-time fundraising tracking, and an immersive event showcase accessible across all devices.",
     tags: [
       "Custom CMS",
       "Secure Donations",
@@ -410,21 +415,18 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
       "Responsive Design",
     ],
     duration: "Annual (6th-Year Event Planning & Launch)",
-
     keyfeatures: [
       "Live fundraising counter highlighting over CI$192,585 raised",
       "Event details including date/time (Feb 21, 4:30 PM – Feb 22, 6:30 PM), location (Camana Bay), and charitable beneficiary (Addison Kelly Mental Health Education Fund)",
       "Flexible team creation and participation options ('Create New Team' / 'Join A Team')",
       "Inclusive event presentation blending fitness, family-friendly activities, Zwift league, and a final outdoor celebration",
     ],
-
     impactdeliverd: [
       "Streamlined Participation: Simplified team login and onboarding boosted user engagement",
       "Real-Time Transparency: Live fundraising totals fostered trust, urgency, and donor enthusiasm",
       "Community Reach: Inclusive activities and compelling storytelling drove higher involvement and awareness",
       "Future-Ready Platform: Designed for scalability to support annual growth, dynamic updates, and new partnerships",
     ],
-
     coverImage:
       "https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390045/2_y1nb08.jpg",
   },
@@ -433,7 +435,8 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
     client: "eTickets.ca (Canada)",
     category: "Web development",
     title: "eTickets.ca – Canada’s Vast Ticketing Network",
-  description:"Transformed eTickets.ca into a dynamic,user-friendly hub for sports, concerts,Broadway,and theatre tickets. Focused on elevating visibility,simplifying booking, and building trust through secure transactions and seamless UX.",
+    description:
+      "Transformed eTickets.ca into a dynamic,user-friendly hub for sports, concerts,Broadway,and theatre tickets. Focused on elevating visibility,simplifying booking, and building trust through secure transactions and seamless UX.",
     tags: [
       "React",
       "Node.js",
@@ -452,15 +455,18 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Stripe", "REST API"],
       "Enhanced Discoverability: Optimized filtering and search elevated user journeys and reduced bounce rates",
       "Trust & Transparency: Prominent guarantees and secure UX boosted credibility in a competitive resale market",
       "Cross-Platform Usability: Mobile-first design with real-time features improved booking speed and convenience",
-    ],   coverImage:"https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390044/3_yxk03p.jpg",
+    ],
+    coverImage:
+      "https://res.cloudinary.com/dwzp4udnk/image/upload/v1756390044/3_yxk03p.jpg",
   },
   {
     id: 19,
     client: "Doin’Denimz",
     category: "Web Development",
     title: "Doin’Denimz – Premium Denim E-commerce Website",
-description:"Built a premium,fully dynamic e-commerce platform featuring advanced product filters,immersive 3D jeans previews, and a responsive design—delivering a seamless,high-end shopping experience.",
- tags: ["React.js", "Django", "3D Model Integration", "E-commerce"],
+    description:
+      "Built a premium,fully dynamic e-commerce platform featuring advanced product filters,immersive 3D jeans previews, and a responsive design—delivering a seamless,high-end shopping experience.",
+    tags: ["React.js", "Django", "3D Model Integration", "E-commerce"],
     duration: "25 Weeks",
     keyfeatures: [
       "Interactive shopping with advanced filtering",
@@ -473,14 +479,16 @@ description:"Built a premium,fully dynamic e-commerce platform featuring advance
       "Improved purchase conversions with streamlined user flow",
       "Boosted mobile sales through responsive design",
     ],
-coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjvli.png",
+    coverImage:
+      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/4_knjvli.png",
   },
   {
     id: 20,
     client: "PhysioPro Assist",
     category: "Web Development",
     title: "PhysioPro Assist – Responsive Clinic Management Platform",
-description:"Built a responsive platform for physiotherapy professionals with appointment scheduling,patient record tracking,and real-time treatment updates—streamlining workflows and improving patient interaction.",
+    description:
+      "Built a responsive platform for physiotherapy professionals with appointment scheduling,patient record tracking,and real-time treatment updates—streamlining workflows and improving patient interaction.",
     tags: ["React.js", "Node.js", "Clinic Management", "Healthcare"],
     duration: "2 Weeks",
     keyfeatures: [
@@ -495,28 +503,33 @@ description:"Built a responsive platform for physiotherapy professionals with ap
       "Improved patient engagement and interaction",
       "Enabled faster and more accurate treatment tracking",
       "Enhanced overall clinic productivity and efficiency",
-    ],   coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/5_t9wy7b.png"  
+    ],
+    coverImage:
+      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392536/5_t9wy7b.png",
   },
-{
-  id:21,
-  title: "Smrutimind Care",
-  category: "Healthcare & Wellness Platform",
-  client: "Smrutimind",
-  description: "We built an accessible, responsive mental health and wellness platform—featuring appointment booking, interactive resources,and a seamless user experience across devices,making mental health support easier and more engaging.",
-  keyfeatures: [
-    "Appointment booking and management system",
-    "Interactive mental health resources and exercises",
-    "Responsive, mobile-friendly user interface",
-    "Accessible and user-centric design",
-    "Fast performance with smooth navigation"
-  ],
-  impactdeliverd: [
-    "Simplified access to mental health support for users",
-    "Increased engagement with wellness resources",
-    "Enhanced satisfaction through seamless experience across devices",
-    "Streamlined session management for mental health professionals"
-  ],
-  duration: "2 Weeks", coverImage:"https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/6_kzpjsv.png",
-  tags: ["ReactJS"]
-}
+  {
+    id: 21,
+    title: "Smrutimind Care",
+    category: "web development",
+    client: "Smrutimind",
+    description:
+      "We built an accessible, responsive mental health and wellness platform—featuring appointment booking, interactive resources,and a seamless user experience across devices,making mental health support easier and more engaging.",
+    keyfeatures: [
+      "Appointment booking and management system",
+      "Interactive mental health resources and exercises",
+      "Responsive, mobile-friendly user interface",
+      "Accessible and user-centric design",
+      "Fast performance with smooth navigation",
+    ],
+    impactdeliverd:[
+      "Simplified access to mental health support for users",
+      "Increased engagement with wellness resources",
+      "Enhanced satisfaction through seamless experience across devices",
+      "Streamlined session management for mental health professionals",
+    ],
+    duration: "2 Weeks",
+    coverImage:
+      "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/6_kzpjsv.png",
+    tags: ["ReactJS"],
+  },
 ];
