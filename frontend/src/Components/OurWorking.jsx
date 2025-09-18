@@ -67,7 +67,7 @@ export function OurWorking() {
         }}
       >
         {steps.map((step, index) => (
-          <Timeline key={index}>
+          <Timeline key={index} className={`${index === steps.length - 1 ? "border-l-0 sm:border-l" : "border-l"} border-gray-200 dark:border-gray-700`}>
             <TimelineItem>
               <TimelinePoint icon={step.icon} style={{width:"50px"}} />
               <TimelineContent>
