@@ -532,4 +532,191 @@ export const project = [
       "https://res.cloudinary.com/djjsz0udl/image/upload/v1756392537/6_kzpjsv.png",
     tags: ["ReactJS"],
   },
+  {
+  id:21,
+  title: "ClubMall – Modern E-Commerce Platform",
+  category: "web development",
+  client: "",
+  description:
+    "We are excited to showcase the official website for ClubMall, an iconic shopping and leisure destination designed to offer an exceptional experience to shoppers, visitors, and businesses.The ClubMall website merges innovative technology with a sleek, user-friendly design, creating a seamless digital journey for users.",
+  keyfeatures: [
+    "Event Updates & Promotions",
+    "Interactive Store Directory",
+    "Interactive Map",
+    "Online Store Integration",
+  ],
+  impactdeliverd: [
+    "Boosted online sales and customer engagement",
+    "Streamlined order and inventory management",
+    "Improved checkout conversion rate",
+    "Enhanced brand visibility in the digital marketplace",
+  ],
+  duration: "1 Week",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764499492/Clubmall_wclaya.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe", "REST API"],
+},
+
+{
+  id: 22,
+  title: "FreeFuse – Creative Collaboration Platform",
+  category: "web development",
+  client: "",
+  description:
+    "We are thrilled to present the official website for FreeFuse, an innovative platform dedicated to revolutionizing how individuals and organizations connect, collaborate, and share creative ideas. The FreeFuse website is designed to provide a seamless and engaging experience with intuitive navigation and interactive features that encourage creativity and collaboration. Built with user-centered design principles, the platform empowers communities to connect, share ideas, and amplify their collective impact.",
+  keyfeatures: [
+    "Real-time collaboration tools",
+    "Project management system",
+    "Community forum and discussion boards",
+    "Secure file sharing and cloud storage",
+    "User profiles and team workspaces",
+    "Responsive and modern UI/UX design",
+  ],
+  impactdeliverd: [
+    "Enhanced collaboration among distributed teams",
+    "Improved project visibility and task organization",
+    "Increased community engagement and idea sharing",
+    "Strengthened digital presence for the FreeFuse brand",
+  ],
+  duration: "2 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764500525/FreeFuse_ynxed6.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "WebSockets", "Cloud Storage"],
+},
+
+{
+  id: 23,
+  title: "Maison Heera – Brilliance Personified",
+  category: "web development",
+  client: "",
+  description:
+    "We are proud to showcase the official website for Maison Heera, a distinguished brand offering luxurious jewelry and gemstones. The website highlights the brand’s exquisite collections while delivering a seamless and refined shopping experience. Designed with sophisticated aesthetics and a fully responsive interface, it allows customers to browse, purchase, and explore Maison Heera’s legacy with elegance and ease. This platform serves as a premium digital hub for showcasing the full range of luxurious offerings.",
+  keyfeatures: [
+    "Elegant and high-end product showcase",
+    "Secure e-commerce functionality",
+    "Customer account management",
+    "Personalized product recommendations",
+    "Advanced product filtering and search",
+    "Mobile-first responsive luxury UI",
+  ],
+  impactdeliverd: [
+    "Enhanced brand credibility in the luxury market",
+    "Improved customer engagement and retention",
+    "Boosted online jewelry sales",
+    "Strengthened premium digital presence",
+  ],
+  duration: "3 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764500643/MalsonHeera_skueh7.png",
+  tags: ["React.js", "Next.js", "Node.js", "MongoDB", "Stripe", "Luxury UI/UX"],
+},
+
+
+
+{
+  id: 24,
+  title: "ASVAB Tutoring – Smart Military Test Preparation Platform",
+  category: "web development",
+  client: "",
+  description:
+    "ASVAB Tutoring is an innovative online learning platform designed to help individuals prepare for the Armed Services Vocational Aptitude Battery (ASVAB) test. Whether preparing for the military or looking to strengthen key academic skills, the platform delivers a comprehensive and user-friendly learning experience. With expert instructors, interactive lessons, and practice tests, ASVAB Tutoring provides personalized and effective preparation to help students achieve top scores and unlock new career opportunities.",
+  keyfeatures: [
+    "Personalized tutoring sessions",
+    "Practice tests and interactive quizzes",
+    "Real-time progress tracking and performance analytics",
+    "Flexible study options with self-paced learning",
+    "Expert-curated study materials",
+    "Mobile-friendly learning dashboard",
+  ],
+  impactdeliverd: [
+    "Improved student performance and test scores",
+    "Increased student engagement and retention",
+    "Accessible exam preparation from anywhere",
+    "Streamlined online tutoring experience",
+  ],
+  duration: "3 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764501010/Asvab_dnprrw.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "E-Learning", "REST API"],
+},
+{
+  id:25,
+  title: "Sanghvi & Sons – Fine Jewelry & Gemstone Boutique",
+  category: "web development",
+  client: "",
+  description:
+    "We are excited to showcase the website for Sanghvi & Sons, a trusted name in the jewelry and gemstone industry. The platform is designed to deliver a seamless and secure online shopping experience, featuring a wide range of premium jewelry and rare gemstones. From traditional designs to modern styles, the website allows customers to explore exclusive collections, customize jewelry, track orders, and receive expert guidance to choose the perfect piece for every special occasion.",
+  keyfeatures: [
+    "Detailed and categorized product catalog",
+    "Secure online shopping and checkout system",
+    "Customer support and inquiry management",
+    "Jewelry customization options",
+    "Real-time order tracking",
+    "Mobile-responsive luxury UI design",
+  ],
+  impactdeliverd: [
+    "Expanded online reach for the jewelry brand",
+    "Improved customer trust through secure transactions",
+    "Boosted online inquiries and product orders",
+    "Enhanced premium digital brand presence",
+  ],
+  duration: "3 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764501415/sanghvi_vvp7nu.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe", "Luxury E-Commerce"],
+},
+{
+  id: 26,
+  title: "BJERRING ONLINE – Industrial Equipment E-Commerce Platform",
+  category: "web development",
+  client: "",
+  description:
+    "We are thrilled to showcase the development of BJERRING ONLINE, a premier destination for high-quality industrial equipment and tools. The platform connects businesses and professionals with reliable and durable products across multiple industries. From construction machinery to safety equipment and specialized tools, the website offers a seamless sourcing experience with a strong focus on performance, usability, and industry compliance.",
+  keyfeatures: [
+    "Extensive industrial product range",
+    "Secure e-commerce and checkout system",
+    "Customer account dashboard and order history",
+    "Technical support and product documentation",
+    "Advanced search and category-based filtering",
+    "Mobile-responsive and performance-optimized UI",
+  ],
+  impactdeliverd: [
+    "Improved accessibility to industrial-grade products",
+    "Streamlined purchasing for B2B customers",
+    "Increased online inquiries and bulk order requests",
+    "Strengthened digital presence in the industrial market",
+  ],
+  duration: "4 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764501871/bjerring_zgztko.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "B2B E-Commerce", "Industrial Tech"],
+},
+
+{
+  id: 27,
+  title: "Phillips Live – Interactive Live Streaming Platform",
+  category: "web development",
+  client: "",
+  description:
+    "Welcome to Phillips Live, a next-generation live streaming platform designed to deliver an immersive and interactive experience for creators and their audiences. Whether broadcasting live events, hosting online shows, or engaging with communities, the platform provides a seamless, high-quality streaming environment. With powerful real-time interaction tools, event management features, and monetization options, Phillips Live empowers creators to connect deeply with their audience and build lasting digital communities.",
+  keyfeatures: [
+    "High-quality live video streaming",
+    "Real-time audience interaction (chat, reactions, Q&A)",
+    "Event scheduling and automated notifications",
+    "Built-in monetization tools for creators",
+    "Creator dashboards and stream analytics",
+    "Scalable and secure streaming infrastructure",
+  ],
+  impactdeliverd: [
+    "Enabled creators to grow and monetize their audiences",
+    "Increased real-time user engagement and retention",
+    "Supported professional-grade live broadcasting",
+    "Strengthened community interaction through live content",
+  ],
+  duration: "4 Weeks",
+  coverImage:
+    "https://res.cloudinary.com/dfupuon9z/image/upload/v1764502413/phillps_qsknjo.png",
+  tags: ["React.js", "Node.js", "WebRTC", "Live Streaming", "Socket.IO", "Cloud Infrastructure"],
+}
+
 ];
